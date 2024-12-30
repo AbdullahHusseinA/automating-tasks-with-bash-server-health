@@ -9,6 +9,7 @@ This project automates common administrative tasks on a Linux server by scheduli
 - **Cron Jobs**: Used for automating the scheduling of tasks.
 - **Linux server tools**: Various system utilities for disk, memory, CPU, and network monitoring.
 
+<<<<<<< HEAD
 ## Prerequisites
 Before running this project, ensure the following prerequisites are met:
 1. A Linux-based operating system.
@@ -20,6 +21,8 @@ Before running this project, ensure the following prerequisites are met:
    - `ping` (for network monitoring, part of iputils).
    - Sufficient privileges to modify cron jobs and execute shell scripts.
 
+=======
+>>>>>>> 4fa4e5b (Initial commit: Add project files, scripts, and README)
 ## Installation Instructions
 
 1. **Clone the repository** to your local machine:
