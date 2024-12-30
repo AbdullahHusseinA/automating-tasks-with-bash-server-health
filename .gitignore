@@ -1,7 +1,10 @@
 # Ignore log files
 /logs/*.log
 
-
+# Ignore temporary files 
+*.swp
+*.bak
+*.tmp
 
 
 
