@@ -1,0 +1,19 @@
+# Cron jobs for server health monitoring
+
+    # Check disk every Sunday at 2 AM
+    0 2 * * 0 /path/to/check_disk.sh
+
+    # Check memory every Sunday at 3 AM
+    0 3 * * 0 /path/to/check_memory.sh
+
+    # Check CPU usage every Sunday at 4 AM
+    0 4 * * 0 /path/to/check_cpu.sh
+
+    # Check network every Sunday at 5 AM
+    0 5 * * 0 /path/to/check_network.sh
+
+    # Check service uptime every Sunday at 6 AM
+    0 6 * * 0 /path/to/service_uptime.sh
+
+    # Generate summary report every Sunday at 7 AM
+    0 7 * * 0 /path/to/generate_report.sh
