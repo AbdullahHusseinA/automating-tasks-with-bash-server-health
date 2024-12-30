@@ -1,4 +1,4 @@
-# Cron jobs for server health monitoring
+# Cron jobs for server health monitoring scripts
 
     # Check disk every Sunday at 2 AM
     0 2 * * 0 /path/to/check_disk.sh
