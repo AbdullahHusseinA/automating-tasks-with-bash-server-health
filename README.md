@@ -9,6 +9,17 @@ This project automates common administrative tasks on a Linux server by scheduli
 - **Cron Jobs**: Used for automating the scheduling of tasks.
 - **Linux server tools**: Various system utilities for disk, memory, CPU, and network monitoring.
 
+## Prerequisites
+Before running this project, ensure the following prerequisites are met:
+1. A Linux-based operating system.
+2. Bash shell and basic familiarity with terminal commands.
+3. Required tools installed:
+   - `df` (for disk monitoring, part of coreutils).
+   - `free` (for memory monitoring, typically included by default).
+   - `mpstat` (for CPU monitoring, included in `sysstat` package).
+   - `ping` (for network monitoring, part of iputils).
+   - Sufficient privileges to modify cron jobs and execute shell scripts.
+
 ## Installation Instructions
 
 1. **Clone the repository** to your local machine:
