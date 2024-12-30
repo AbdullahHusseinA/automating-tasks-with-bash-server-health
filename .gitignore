@@ -1,14 +1,7 @@
 # Ignore log files
 /logs/*.log
 
-<<<<<<< HEAD
-# Ignore temporary files 
-*.swp
-*.bak
-*.tmp
-=======
 
->>>>>>> 4fa4e5b (Initial commit: Add project files, scripts, and README)
 
 
 
